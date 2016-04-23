@@ -10,6 +10,26 @@
 "	    for OpenVMS:  sys$login:.vimrc
 
 " When started as "evim", evim.vim will already have done these settings.
+" Vundle vimrc
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+"
+let g:ycm_confirm_extra_conf = 0 
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'Valloric/YouCompleteMe'
+
+" End configuration, makes the plugins available
+call vundle#end()
+filetype plugin indent on
 if v:progname =~? "evim"
   finish
 endif
@@ -106,3 +126,13 @@ set autoindent
 " Stop autocommenting new lines
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 set number
+
+" YCM settings
+let g:ycm_collect_identifiers_from_tags_files = 1 " Let YCM read tags from Ctags file
+let g:ycm_use_ultisnips_completer = 1 " Default 1, just ensure
+let g:ycm_seed_identifiers_with_syntax = 1 " Completion for programming language's keyword
+let g:ycm_complete_in_comments = 1 " Completion in comments
+let g:ycm_complete_in_strings = 1 " Completion in string
+let g:ycm_autoclose_preview_window_after_completion = 1
+let g:ycm_autoclose_preview_window_after_insertion = 1
+let g:ycm_show_diagnostics_ui = 0
