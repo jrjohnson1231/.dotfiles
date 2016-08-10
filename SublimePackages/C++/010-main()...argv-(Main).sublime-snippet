@@ -1,0 +1,9 @@
+<snippet>
+	<description>main(argc...argv[])</description>
+    <content><![CDATA[int main(int argc, char const${TM_C_POINTER: *}argv[]) {
+	${0:/* code */}
+	return 0;
+}]]></content>
+    <tabTrigger>Main</tabTrigger>
+    <scope>source.c, source.objc, source.c++, source.objc++</scope> 
+</snippet>

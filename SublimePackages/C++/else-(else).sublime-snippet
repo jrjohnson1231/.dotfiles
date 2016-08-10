@@ -1,0 +1,10 @@
+<snippet>
+	<description>Else Statement</description>
+	<content><![CDATA[
+else {
+	${1:/* code */}
+}
+]]></content>
+	<tabTrigger>else</tabTrigger>
+	<scope>source.c, source.c++, cource.objc, source.objc++</scope>
+</snippet>

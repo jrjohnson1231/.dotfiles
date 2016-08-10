@@ -1,0 +1,32 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+		"SplitScreen"
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Bootstrap 3 Snippets",
+		"C Improved",
+		"C++11",
+		"CodeWrapper",
+		"ColorSchemeEditor",
+		"HTMLAttributes",
+		"HTMLBeautify",
+		"Jade",
+		"Origami",
+		"Package Control",
+		"PackageDev",
+		"PackageResourceViewer",
+		"Python 3",
+		"Sass",
+		"SFTP",
+		"SideBarEnhancements",
+		"SplitScreen",
+		"Theme - Flatland",
+		"Theme - Soda",
+		"TypeScript",
+		"Wrap Plus"
+	]
+}

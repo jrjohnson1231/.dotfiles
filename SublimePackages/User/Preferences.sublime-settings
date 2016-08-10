@@ -1,0 +1,23 @@
+{
+	"added_words":
+	[
+		"internet"
+	],
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/User/MyBlueDawn.tmtheme",
+	"enable_tab_scrolling": false,
+	"fade_fold_buttons": false,
+	"flatland_square_tabs": false,
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"SplitScreen"
+	],
+	"open_files_in_new_window": false,
+	"scroll_past_end": true,
+	"tab_size": 2,
+	"theme": "Flatland Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"word_wrap": "true",
+	"wrap_width": 80
+}
