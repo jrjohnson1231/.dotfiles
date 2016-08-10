@@ -1,8 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Users/johnjohnson/bin'
 let g:netrw_dirhist_2='/Users/johnjohnson/cse20189/assignments/reading10'
 let g:netrw_dirhist_3='/Users/johnjohnson/Sites/django-tutorial/mysite/templates/admin'
 let g:netrw_dirhist_4='/Users/johnjohnson/Sites/django-tutorial/mysite/templates/admin/polls'
 let g:netrw_dirhist_5='/Users/johnjohnson/cse20212/SpaceTeam/Tensor'
 let g:netrw_dirhist_6='/Users/johnjohnson/Research/GUI'
+let g:netrw_dirhist_7='/Users/johnjohnson/Sites'
+let g:netrw_dirhist_8='/Users/johnjohnson/Sites/basicblog/blog/migrations'
