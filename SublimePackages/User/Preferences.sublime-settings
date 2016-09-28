@@ -3,14 +3,26 @@
 	[
 		"internet"
 	],
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": "bs3",
+			"selector": "text.html"
+		}
+	],
 	"close_windows_when_empty": true,
 	"color_scheme": "Packages/User/MyBlueDawn.tmtheme",
 	"enable_tab_scrolling": false,
 	"fade_fold_buttons": false,
 	"flatland_square_tabs": false,
-	"font_size": 12,
+	"font_size": 11,
 	"ignored_packages":
 	[
+		"Python 3",
 		"SplitScreen"
 	],
 	"open_files_in_new_window": false,
