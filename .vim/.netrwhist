@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/home/johnjohnson/config/.vim/ftplugin/markdown.vim'
 let g:netrw_dirhist_2='/home/johnjohnson/scratch'
 let g:netrw_dirhist_3='/boot/efi/EFI/ubuntu'
+let g:netrw_dirhist_4='/shared/johnjohnson/crcl/webapp/src/app/home'
+let g:netrw_dirhist_5='/shared/johnjohnson/crcl/webapp/src/app/home/services'

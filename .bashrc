@@ -124,3 +124,4 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 # Use colors with tmux
 export TERM=screen-256color
+export EDITOR=vim
