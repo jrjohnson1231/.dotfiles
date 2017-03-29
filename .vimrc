@@ -76,6 +76,7 @@ Plug 'ervandew/supertab'
 Plug 'honza/vim-snippets'
 Plug 'magarcia/vim-angular2-snippets'
 Plug 'ARM9/arm-syntax-vim'
+Plug 'tpope/vim-commentary'
 call plug#end()
 
 " YCM settings
