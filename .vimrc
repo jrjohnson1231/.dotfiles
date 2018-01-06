@@ -54,7 +54,7 @@ set expandtab
 
 " Vim plug settings
 call plug#begin()
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer' }
 Plug 'scrooloose/syntastic'
 Plug 'vim-scripts/indentpython.vim'
 Plug 'vim-scripts/let-modeline.vim'
@@ -74,9 +74,10 @@ Plug 'gregsexton/matchtag'
 Plug 'sirver/ultisnips'
 Plug 'ervandew/supertab'
 Plug 'honza/vim-snippets'
-Plug 'magarcia/vim-angular2-snippets'
+Plug 'mhartington/vim-angular2-snippets'
 Plug 'ARM9/arm-syntax-vim'
 Plug 'tpope/vim-commentary'
+Plug 'jason0x43/vim-js-indent'
 call plug#end()
 
 " YCM settings
@@ -137,3 +138,6 @@ set background=dark
 colorscheme idle
 hi LineNr ctermbg=NONE
 hi nonText ctermbg=NONE
+
+" jk escape
+inoremap jk <esc>

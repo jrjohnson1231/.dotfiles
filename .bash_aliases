@@ -8,3 +8,4 @@ alias darrowX='ssh -X jjohns48@darrow.cc.nd.edu'
 alias student='ssh jjohns48@student03.cse.nd.edu'
 alias studentX='ssh -X jjohns48@student03.cse.nd.edu'
 alias cleanup='rm -r *~'
+alias cls="clear"
