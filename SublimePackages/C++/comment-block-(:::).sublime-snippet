@@ -1,9 +1,0 @@
-<snippet>
-	<description>Comment Block</description>
-	<content><![CDATA[
-/* ${1:Comment} */
-]]></content>
-	<tabTrigger>///</tabTrigger>
-	<tabTrigger>/*</tabTrigger>
-	<scope>source.c, source.c++, surce.objc, source.objc++</scope>
-</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-	<description>typedef struct</description>
-    <content><![CDATA[typedef struct ${1:name}} {
-	${2:/* data */}
-} ${3:MyStruct};]]></content>
-    <tabTrigger>tstruct</tabTrigger>
-    <tabTrigger>ts</tabTrigger>
-    <scope>source.c, source.objc, source.c++, source.objc++</scope>
-</snippet>

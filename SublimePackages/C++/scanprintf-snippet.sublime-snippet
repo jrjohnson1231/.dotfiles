@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-printf("%s\n", "${1:}");
-scanf("%${2}", &${0:});
-]]></content>
-	<tabTrigger>pscanf</tabTrigger>
-	<scope>source.c</scope>
-	<description>printf(), scanf()</description>
-</snippet>

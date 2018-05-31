@@ -1,8 +1,0 @@
-<snippet>
-	<description>#define</description>
-    <content><![CDATA[
-#define ${1:SYMBOL} ${2:value}
-]]></content>
-    <tabTrigger>def</tabTrigger>
-    <scope>source.c, source.c++, source.objc, source.objc++</scope>
-</snippet>

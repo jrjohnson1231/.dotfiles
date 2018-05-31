@@ -1,7 +1,0 @@
-[
-	{ "keys": ["super+;"], "command": "run_macro_file", "args": {"file": "Packages/User/SmartColon.sublime-macro"} },
-	{ "keys": ["super+shift+r"], "command": "reindent" },
-	{ "keys": ["super+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
-	{ "keys": ["super+v"], "command": "paste_and_indent" },
-	{ "keys": ["super+shift+v"], "command": "paste" }
-]

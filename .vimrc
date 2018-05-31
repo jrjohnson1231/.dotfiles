@@ -56,6 +56,7 @@ set expandtab
 call plug#begin()
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer' }
 Plug 'scrooloose/syntastic'
+Plug 'dylanaraps/wal.vim'
 Plug 'vim-scripts/indentpython.vim'
 Plug 'vim-scripts/let-modeline.vim'
 Plug 'scrooloose/nerdtree'
@@ -135,7 +136,7 @@ au BufNewFile,BufRead *.s,*.S set filetype=arm " arm = armv6/7
 " colorscheme settings
 set t_Co=256
 set background=dark
-colorscheme idle
+colorscheme wal
 hi LineNr ctermbg=NONE
 hi nonText ctermbg=NONE
 
