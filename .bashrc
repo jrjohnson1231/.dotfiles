@@ -112,11 +112,13 @@ fi
 
 alias chrome="google-chrome"
 
-
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
-### Added by the Heroku Toolbelt
+# Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# Add rvm scripts
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
+[[ -s "$HOME/.inputrc" ]] && export INPUTRC=$HOME/.inputrc
 
 # Use colors with tmux
 export TERM=screen-256color

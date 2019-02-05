@@ -54,7 +54,7 @@ set expandtab
 
 " Vim plug settings
 call plug#begin()
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer' }
+Plug 'Valloric/YouCompleteMe'
 Plug 'scrooloose/syntastic'
 Plug 'dylanaraps/wal.vim'
 Plug 'vim-scripts/indentpython.vim'
